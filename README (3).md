@@ -10,9 +10,6 @@
 ###### h6 Heading 
 
 # Dropdown
-
-<details><summary>A dropdown list for markdown</summary>
-
    1. First item must be preceeded with an empty line.
    1. Markdown renders **perfectly**.
    1. Extra item.
@@ -168,9 +165,9 @@ Duplicated footnote reference[^second].
 
 
 `code` - выделение текста как код `
-
-``code`` - выделение текста как код ``
-
+Finish my changes
+``code`` - выделение текста как код `` Finish my changes
+Finish my changes
 ``` 
 выделение текста как код c ```
 
@@ -271,16 +268,6 @@ datahere
 ------
 
 # Tables
-
-Colons can be used to align columns.
-
-| Tables        | Are           | Cool  | Tables        | Are           | Cool  | Tables        | Are           | Cool  | Tables        | Are           | Cool  | Tables        | Are           | Cool  | Tables        | Are           | Cool  | Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:| ------------- |:-------------:| -----:| ------------- |:-------------:| -----:| ------------- |:-------------:| -----:| ------------- |:-------------:| -----:| ------------- |:-------------:| -----:| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 | col 3 is      | right-aligned | $1600 | col 3 is      | right-aligned | $1600 | col 3 is      | right-aligned | $1600 | col 3 is      | right-aligned | $1600 | col 3 is      | right-aligned | $1600 | col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 | col 3 is      | right-aligned | $1600 | col 3 is      | right-aligned | $1600 | col 3 is      | right-aligned | $1600 | col 3 is      | right-aligned | $1600 | col 3 is      | right-aligned | $1600 | col 3 is      | right-aligned | $1600 |
-| zebra stripes | are neat      |    $1 | zebra stripes | are neat      |    $1 | zebra stripes | are neat      |    $1 | zebra stripes | are neat      |    $1 | col 3 is      | right-aligned | $1600 | col 3 is      | right-aligned | $1600 | col 3 is      | right-aligned | $1600 |
-
-
 Markdown | Less | Pretty
 --- | --- | ---
 *Still* | `renders` | **nicely**
@@ -732,16 +719,6 @@ Markdown | Less | Pretty
 | git status | List all new or modified files |
 | git diff | Show file differences that haven't been staged |
 
-| Command | Description |
-| --- | --- |
-| `git status` | List all *new or modified* files |
-| `git diff` | Show file differences that **haven't been** staged |
-
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
-
 | Name     | Character |
 | ---      | ---       |
 | Backtick | `         |
@@ -952,10 +929,6 @@ Let's rename \*our-new-project\* to \*our-old-project\*.
 
 ## Заголовок 5 [Ссылка e](https://www.google.com) ![Альтернативный текст](https://via.placeholder.com/150) **Жирный текст** *Курсивный текст* ~~Зачеркнутый текст~~ - Пункт 1 - Пункт 2 - Пункт 3 | Заголовок 1 | Заголовок 2 | Заголовок 3 | | ----------- | ----------- | ----------- | | Ячейка 1 | Ячейка 2 | Ячейка 3 | | Ячейка 4 | Ячейка 5 | Ячейка 6 |
 
-`# Заголовок 6 [СсGoogle](https://www.google.com) ![Альтернативный текст](https://via.placeholder.com/150) **Жирный текст** *Курсивный текст* ~~Зачеркнутый текст~~ - Пункт 1 - Пункт 2 - Пункт 3 | Заголовок 1 | Заголовок 2 | Заголовок 3 | | ----------- | ----------- | ----------- | | Ячейка 1 | Ячейка 2 | Ячейка 3 | | Ячейка 4 | Ячейка 5 | Ячейка 6 |`
-`# Заголовок 7 [Ссылка н G](https://www.google.com) ![Альтернативный текст](https://via.placeholder.com/150) **Жирный текст** *Курсивный текст* ~~Зачеркнутый текст~~ - Пункт 1 - Пункт 2 - Пункт 3 | Заголовок 1 | Заголовок 2 | Заголовок 3 | | ----------- | ----------- | ----------- | | Ячейка 1 | Ячейка 2 | Ячейка 3 | | Ячейка 4 | Ячейка 5 | Ячейка 6 |`
-
-`# Заголовок 8 [Са](https://www.google.com) ![Альтернативный текст](https://via.placeholder.com/150) **Жирный текст** *Курсивный текст* ~~Зачеркнутый текст~~ - Пункт 1 - Пункт 2 - Пункт 3 | Заголовок 1 | Заголовок 2 | Заголовок 3 | `
 
 # Заголовок 9 [Ссылка на Goe](https://www.google.com) ![Альтернативный текст](https://via.placeholder.com/150) **Жирный текст** *Курсивный текст* ~~Зачеркнутый текст~~ - Пункт 1 - Пункт 2 - Пункт 3 | Заголовок 1 | Заголовок 2 | Заголовок 3 | | ----------- | ----------- | ----------- | | Ячейка 1 | Ячейка 2 | Ячейка 3 | | Ячейка 4 | Ячейка 5 | Ячейка 6 |
 
@@ -963,7 +936,3 @@ Let's rename \*our-new-project\* to \*our-old-project\*.
 [Перейти к Заголовку 1](#title1)
 
 ## <a id="title1">Заголовок 1</a>
-
-Какой-то контент
-
-
